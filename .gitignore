@@ -27,5 +27,4 @@ build/
 .DS_Store
 
 ### security ###
-application.properties
 *.env
