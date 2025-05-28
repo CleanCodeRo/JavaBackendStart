@@ -16,7 +16,6 @@ import java.util.UUID;
 public class RoleEntity extends BaseEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
     @Column(unique = true, nullable = false)
